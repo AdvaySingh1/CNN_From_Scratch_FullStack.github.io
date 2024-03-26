@@ -1,0 +1,83 @@
+\documentclass[11pt,letterpaper]{amsbook}
+
+\usepackage{amsmath,amsthm,graphicx,color,enumerate,color,spverbatim,setspace}
+\usepackage[all,2cell,ps]{xy}
+\usepackage{amsfonts}
+
+
+\usepackage{tikz}
+\usepackage{multicol}
+
+\usepackage[Glenn]{fncychap}
+
+\newcommand{\chspace}{\vspace{-5em}}
+
+
+
+\newcommand{\Mod}[2]{\kern.1em\mathrel{\textsc{rem}}(#1,#2)}
+\newcommand{\quo}[2]{\kern.1em\mathrel{\textsc{quo}}(#1,#2)}
+\newcommand{\mydef}[1]{{\bf #1}}
+
+
+\theoremstyle{definition}
+\newtheorem{definition}{\hspace{-2.5em} \bf  Definition}[chapter] 
+\newtheorem{experiment}[definition]{\hspace{-2.5em} \bf Experiment}
+\newtheorem{problem}[definition]{\hspace{-2.5em} \bf  Problem}
+\newtheorem{theorem}[definition]{\hspace{-2.5em} \bf Theorem}
+\newtheorem{conjecture}[definition]{\hspace{-2.5em} \bf Conjecture}
+\newtheorem{proposition}[definition]{\hspace{-2.5em} \bf Proposition}
+\newtheorem{remark}[definition]{\hspace{-2.5em} \bf Remark}
+\newtheorem{investigation}[definition]{\hspace{-2.5em} \bf Investigation}
+\newtheorem{lemma}[definition]{\hspace{-2.5em} \bf Lemma}
+\newtheorem{corollary}[definition]{\hspace{-2.5em} \bf Corollary}
+\newtheorem{algorithm}[definition]{\hspace{-2.5em} \bf Algorithm}
+\newtheorem{example}[definition]{\hspace{-2.5em} \bf Example}
+\newtheorem{notation}[definition]{\hspace{-2.5em} \bf Notation}
+\newtheorem{convention}[definition]{\hspace{-2.5em} \bf Convention}
+% only use for supp exercises
+\newtheorem{exercise}{\hspace{-2.5em} \bf Exercise}
+
+\numberwithin{definition}{chapter}
+\numberwithin{exercise}{chapter}
+
+\numberwithin{section}{chapter}
+
+\newcommand{\bbN}{\mathbb{N}}
+\newcommand{\bbQ}{\mathbb{Q}}
+\newcommand{\bbR}{\mathbb{R}}
+\newcommand{\bbZ}{\mathbb{Z}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\lub}{\text{lub}}
+\newcommand{\glb}{\text{glb}}
+\newcommand{\Int}{\text{Int}}
+
+
+\title{CNNs From Scratch}
+\author{Advay Singh}
+\date{March 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\section{Image Processing}
+
+\subsection{Convolution}
+
+\subsection{Pooling}
+
+\section{Fully-Connected Multi Layer Perception}
+
+\subsection{Forward Propagation}
+
+\subsubsection{Activation Function}
+
+\subsection{Back Propagation \& Gradient Decent}
+
+\section{Efficiency Testing}
+
+\section{Application in Full-Stack Web Application}
+
+\end{document}
