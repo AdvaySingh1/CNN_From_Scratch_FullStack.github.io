@@ -2,7 +2,7 @@ Creating a full stack web application from scratch. A study Mathamatical Study o
 Lanugages and Frameworks:
  - Python
  - Javascript/Typescript
- - Next.JS
+ - Angular
  - HTML
  - CSS
  - Latex
